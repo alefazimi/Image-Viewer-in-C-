@@ -33,7 +33,7 @@ JPEG, PNG, BMP, TIFF, GIF, and other OpenCV-supported formats
 
 ## Usage
 
-Open Image: File → Open or drag-and-drop
+Open Image: File → Open or drag-and-drop /n
 Browse Directory: Navigate through images using next/previous buttons
 Edit: Use sliders and tools to adjust brightness, contrast, saturation, blur
 Rotate: Click the rotate button for 90° clockwise rotation
