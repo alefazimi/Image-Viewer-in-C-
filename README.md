@@ -23,23 +23,7 @@ A professional-grade desktop image viewer built with **C++**, **Qt6**, and **Ope
 
 JPEG, PNG, BMP, TIFF, GIF, and other OpenCV-supported formats
 
-## Project Structure
 
-├── CMakeLists.txt # Build configuration
-├── main.cpp # Application entry point
-├── MainWindow.h/cpp # Main UI window with editing features
-├── DirectoryScanner.h/cpp # Directory browsing utility
-├── ImageUtils.h # Image processing utilities
-└── build/ # Build artifacts
-
-
-Project Structure
-├── CMakeLists.txt # Build configuration
-├── main.cpp # Application entry point
-├── MainWindow.h/cpp # Main UI window with editing features
-├── DirectoryScanner.h/cpp # Directory browsing utility
-├── ImageUtils.h # Image processing utilities
-└── build/ # Build artifacts
 ## Requirements
 
 - **C++17** or later
