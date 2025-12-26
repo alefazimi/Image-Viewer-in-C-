@@ -1,0 +1,4 @@
+/home/amata/ProImageViewer/build/CMakeFiles/ProImageViewer.dir
+/home/amata/ProImageViewer/build/CMakeFiles/edit_cache.dir
+/home/amata/ProImageViewer/build/CMakeFiles/rebuild_cache.dir
+/home/amata/ProImageViewer/build/CMakeFiles/ProImageViewer_autogen.dir
