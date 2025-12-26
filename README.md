@@ -1,1 +1,1 @@
-# Image-Viewer-in-C-
+# Image-Viewer-in-C++
