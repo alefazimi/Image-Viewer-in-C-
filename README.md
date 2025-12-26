@@ -32,12 +32,30 @@ JPEG, PNG, BMP, TIFF, GIF, and other OpenCV-supported formats
 ├── ImageUtils.h # Image processing utilities
 └── build/ # Build artifacts
 
+
+Project Structure
+├── CMakeLists.txt # Build configuration
+├── main.cpp # Application entry point
+├── MainWindow.h/cpp # Main UI window with editing features
+├── DirectoryScanner.h/cpp # Directory browsing utility
+├── ImageUtils.h # Image processing utilities
+└── build/ # Build artifacts
 ## Requirements
 
 - **C++17** or later
 - **Qt6** (Widgets, Concurrent modules)
 - **OpenCV** 4.0+
 - **CMake** 3.16+
+
+## Usage
+
+Open Image: File → Open or drag-and-drop
+Browse Directory: Navigate through images using next/previous buttons
+Edit: Use sliders and tools to adjust brightness, contrast, saturation, blur
+Rotate: Click the rotate button for 90° clockwise rotation
+Crop: Toggle crop mode, select area with mouse, press crop
+Undo/Redo: Revert or redo any edits
+Save: Save edited images back to disk
 
 ## How to Build & Run
 
@@ -55,13 +73,3 @@ make
 
 # Run the application
 ./ProImageViewer
-
-
-Usage
-Open Image: File → Open or drag-and-drop
-Browse Directory: Navigate through images using next/previous buttons
-Edit: Use sliders and tools to adjust brightness, contrast, saturation, blur
-Rotate: Click the rotate button for 90° clockwise rotation
-Crop: Toggle crop mode, select area with mouse, press crop
-Undo/Redo: Revert or redo any edits
-Save: Save edited images back to disk
